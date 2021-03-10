@@ -1,0 +1,64 @@
+{
+  "name": "standard-rest-response",
+  "version": "1.0.0",
+  "description": "Tools for building standard responses for REST APIs",
+  "keywords": [
+    "http",
+    "rest",
+    "api",
+    "error",
+    "exception",
+    "response",
+    "middleware"
+  ],
+  "author": {
+    "name": "Justin Lettau",
+    "email": "me@justinlettau.com",
+    "url": "https://justinlettau.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/justinlettau/standard-rest-response",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinlettau/standard-rest-response"
+  },
+  "bugs": {
+    "url": "https://github.com/justinlettau/standard-rest-response/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts",
+    "test": "jest",
+    "prebuild": "del-cli dist",
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "release": "standard-version",
+    "format": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@justinlettau/renovate-config": "^0.1.2",
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "del-cli": "^3.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "husky": "^5.1.3",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "standard-version": "^9.1.1",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2"
+  }
+}
