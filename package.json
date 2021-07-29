@@ -1,6 +1,6 @@
 {
   "name": "standard-rest-response",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tools for building standard responses for REST APIs",
   "keywords": [
     "http",
