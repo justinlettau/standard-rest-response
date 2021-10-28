@@ -3,12 +3,12 @@
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["es6", "dom"],
-    "module": "commonjs",
+    "module": "ES2020",
     "moduleResolution": "node",
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,
-    "target": "es5"
+    "target": "ES2019"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist", "coverage", "src/**/*.test.ts"]
