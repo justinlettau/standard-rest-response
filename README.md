@@ -1,8 +1,6 @@
 [![NPM Version](https://badge.fury.io/js/standard-rest-response.svg)](https://badge.fury.io/js/standard-rest-response)
 [![CI](https://github.com/justinlettau/standard-rest-response/workflows/CI/badge.svg)](https://github.com/justinlettau/standard-rest-response/actions)
 [![codecov](https://codecov.io/gh/justinlettau/standard-rest-response/branch/master/graph/badge.svg)](https://codecov.io/gh/justinlettau/standard-rest-response)
-[![Dependency Status](https://david-dm.org/justinlettau/standard-rest-response.svg)](https://david-dm.org/justinlettau/standard-rest-response)
-[![Dev Dependency Status](https://david-dm.org/justinlettau/standard-rest-response/dev-status.svg)](https://david-dm.org/justinlettau/standard-rest-response?type=dev)
 
 # Standard REST Response
 
