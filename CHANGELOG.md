@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/justinlettau/standard-rest-response/compare/v2.0.0...v2.0.1) (2022-01-08)
+
+
+### Bug Fixes
+
+* esm import extensions ([22eb0c4](https://github.com/justinlettau/standard-rest-response/commit/22eb0c4b409403f17d78fec46d5160c32ed376cd))
+
 ## [2.0.0](https://github.com/justinlettau/standard-rest-response/compare/v1.0.2...v2.0.0) (2021-10-28)
 
 
