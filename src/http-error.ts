@@ -1,5 +1,5 @@
-import { HttpErrorItem } from './http-error-item';
-import { HttpStatusCode } from './http-status-code';
+import { HttpErrorItem } from './http-error-item.js';
+import { HttpStatusCode } from './http-status-code.js';
 
 /**
  * HTTP error.

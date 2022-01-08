@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { HttpError } from '../http-error';
+import { HttpError } from '../http-error.js';
 
 /**
  * Catch http errors and send response.
